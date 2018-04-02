@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab03</title>
+    <style>
+        html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr, acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong, sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption, tbody,tfoot,thead,tr,th,td{border:0;outline:0;vertical-align:baseline; background:transparent;margin:0;padding:0;}
+        body{line-height:1;}
+        ol,ul{list-style:none;}
+        blockquote,q{quotes:none;}
+        blockquote:before,blockquote:after,q:before,q:after{content:none;}
+        :focus{outline:0;}
+        ins{text-decoration:none;}
+        del{text-decoration:line-through;}
+        table{border-collapse:collapse;border-spacing:0;}
+
+        body{margin-left:5%;margin-right:5%;background-color: #E8EAF6;min-width: 600px;}
+        header{background-color:#1A237E;padding-top:1em;padding-bottom:1em;padding-left:1em;}
+        p#p1{color: white;font-size:1.5em;font-weight: bold;font-family: sans-serif;}
+        p#p2{font-style: italic;font-weight: normal;color: white;font-family:"Times New Roman";}
+        nav{background-color:#3F51B5;font-size:1em;padding-top:0.3em;padding-bottom:0.3em;padding-left:1em;margin-bottom: 0.5em;}
+        div{background-color: white;padding-top: 0.5em;padding-left: 0.5em;padding-right: 0.5em;padding-bottom: 0.5em;}
+        #section1{margin-bottom: 0.5em;border:1.5px solid #C5CAE9;}
+        #section2{margin-bottom: 0.5em;border:1.5px solid #C5CAE9;}
+        #section3{border:1.5px solid #C5CAE9;padding-bottom: 1em;}
+        p#p3,#p6,#p7{background-color:#7986CB;color: white;font-size:1em;font-family: sans-serif;padding-top:1em;padding-bottom:1em;padding-left:1em;font-weight: bold;}
+        #img0{width: 100%;height: auto;padding-bottom: 0;display: block;}
+        p#p4{background-color:#C5CAE9;padding-bottom: 0.5em;padding-top: 0.5em;padding-left: 1em;color:#7990A3;font-style: italic;font-weight: normal;font-family: "Times New Roman";}
+        p#p5{padding-top:0.5em;padding-left: 1em;padding-bottom: 1em;padding-right: 1em;font-family: sans-serif;font-weight: bold;}
+        figure#relatedPhoto{margin:0 0 0 0;}
+        img.related{vertical-align: middle;}
+        span.span{color: white;}
+        div#image{text-align: right;padding-bottom: 0.5em;padding-right: 1em;}
+        i.time{color:#F5A2C1;}
+        p.name{font-weight: normal;font-style: italic;color: #C5CAE9;font-family: "Times New Roman";padding-top: 0.5em;padding-bottom: 0.5em;}
+        footer{background-color: #1A237E;padding-bottom: 1.3em;padding-top: 1.3em;padding-left: 1em;margin-top: 0.5em;}
+        a#nav-content1:hover{background-color: #F50057;padding: 0.3em 0.3em 0.3em 0.3em;color: white}
+        a#nav-content2:hover{background-color: #F50057;padding: 0.3em 0.3em 0.3em 0.3em;color: white}
+        a#nav-content3:hover{background-color: #F50057;padding: 0.3em 0.3em 0.3em 0.3em;color: white}
+    </style>
+</head>
+<body>
+  <header>
+    <p id="p1">Share Your Travels</p>
+    <p id="p2">Let us know where you're been</p>
+  </header>
+  <nav>
+      <a id="nav-content1" style="color:#00B0FF;padding-right: 0.6em;"href="#">Description</a>
+      <a id="nav-content2" style="color:#00B0FF;padding-right: 0.6em;"href="#">Related Photo</a>
+      <a id="nav-content3" style="color:#00B0FF;padding-right: 0.6em;"href="#">Reviews</a>
+  </nav>
+  <div>
+      <section id="section1">
+          <p id="p3">
+                  NEW YORK - CENTRAL PARK
+          </p>
+          <img id="img0" src="./images/central-park.jpg">
+          <p id="p4">
+              Conservatory Pond in Central Park
+          </p>
+          <p id="p5">
+              This photo is This photo of Conservatory Pond in
+              <a href="#" class="hyperlink">Central Park</a> in
+              <a href="#" class="hyperlink">New York City</a>.
+              was taken on October 22,2016 with a Canon EOS 30D camera.
+          </p>
+          <div id="image">
+              <img id="button1" width="18" height="18" src="images/icon_download.png">
+              <img id="button2" width="18" height="18" src="images/icon_mail.png">
+              <img id="button3" width="18" height="18" src="images/icon_map.png">
+              <img id="button4" width="18" height="18" src="images/icon_up.png">
+              <img id="button5" width="18" height="18" src="images/icon_down.png">
+          </div>
+      </section>
+      <section id="section2">
+          <p id="p6">RELATED PHOTO</p>
+          <figure id="relatedPhoto">
+              <img id="img1" width="150" height="150" class="related" src="images/related-square1.jpg">&nbsp<img id="image2" width="150" height="150" class="related" src="images/related-square2.jpg">&nbsp<img id="image3" width="150" height="150" class="related" src="images/related-square3.jpg">
+          </figure>
+      </section>
+      <section id="section3">
+          <p id="p7">REVIEWS</p>
+          <div id="coment">
+              <p class="name">By Ricardo on <i class="time">2016-05-23</i></p>
+              <p id="coment1">Easy on the HDR buddy.<hr></p>
+              <p class="name">By Susan on <i class="time">2016-11-18</i></p>
+              <p id="coment2">I love Central Park.<hr></p></div>
+      </section>
+      <footer>
+          <a href="#" class="hyperlink">Home</a> <span class="span">|</span> <a href="#" class="hyperlink">Browse</a> <span class="span">|</span> <a href="#" class="hyperlink">Search</a><br>
+          <p style="padding-top: 0.6em;font-weight: bold;font-style: italic;font-weight: normal;color: white;">Copyright&copy2017 Share Your Travels</p>
+      </footer>
+  </div>
+</body>
+</html>
